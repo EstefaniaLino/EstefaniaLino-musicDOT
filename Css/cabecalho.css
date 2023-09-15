@@ -1,0 +1,129 @@
+.cabecalho	{ 
+      /* background-color: #31d161; */
+
+      	position:	absolute;
+      		top:	0;
+      		width:	100%;
+      box-sizing:	border-box;
+    text-align:	center;
+    font-size: 0.6rem;
+    font-weight:	bold;
+    text-transform:	uppercase;
+    letter-spacing: 0.23em;
+
+         
+			color:#fff;
+             background-color: #2D5377; 
+	}
+    .cabecalho__logo	{
+        padding: 1.5em 0;
+        width: 14.5em;
+    }
+    .cabecalho__menu	{
+        		display: flex;
+        		justify-content:	space-evenly;
+        		flex-wrap:	wrap;
+        
+                    background-color: #272B3A87;
+            }
+            .cabecalho__item-menu	{
+                    display:	inline-block;
+            }
+            .cabecalho__item-menu a	{
+                    display:	inline-block;
+                    padding: 1.86em 1.42em;
+            }
+
+            
+            @media	(min-width:	640px)	{
+            		.cabecalho	{
+            			padding: 0 5%;
+            				display:	flex;
+            				justify-content:	space-between;
+            				align-items:	center;
+            		}
+            
+            		.cabecalho__logo	{
+            				padding: 2.5em 0;
+                
+            		}
+            
+            		.cabecalho__menu	{
+            				background-color:	transparent;	
+            		}
+            }
+        
+            /* .max-width{
+                max-width: 1300px;
+                padding: 0 80px;
+                margin: auto;
+            }
+            .navbar{
+                position: fixed;
+                width: 100%;
+                z-index: 999;
+                padding: 10px 0;
+                font-family: 'Ubuntu', sans-serif;
+                transition: all 0.3s ease;
+            }
+            .navbar.sticky{
+                padding: 15px 0;
+                background: green;
+            }
+            .navbar .max-width{
+                display: flex;
+                align-items:right;
+                justify-content: space-between;
+            }
+            .navbar .logo a{
+                color: red;
+                font-size: 35px;
+                font-weight: 600;
+            }
+            .navbar .logo a span{
+                color: green;
+                transition: all 0.3s ease;
+            }
+            .navbar.sticky .logo a span{
+                color: red;
+            }
+            .navbar .menu li{
+                list-style: none;
+                display: inline-block;
+                align-items: left;
+            }
+            .navbar .menu li a{
+                display: block;
+                color: red;
+                font-size: 18px;
+                font-weight: 500;
+                margin-right:60px;
+                transition: color 0.3s ease;
+            }
+            .navbar .menu li a:hover{
+                color: green;
+            }
+            .navbar.sticky .menu li a:hover{
+                color: red;
+            } */
+            
+            @media	(min-width:	770px)	{
+            		.cabecalho__item-menu--matricular	{
+            				margin-left: 1.42em;
+            
+            				border-radius: 6px;
+            				background-color: #e93d50;
+            		}
+            
+            		.cabecalho__item-menu--matricular a	{
+            				padding: 1.8em 3.5em;
+            		}
+            }
+            
+            @media	(min-width:	1066px)	{
+            		.cabecalho	{
+            				padding-left:	calc((100%	-	960px)	/	2);
+            				padding-right:	calc((100%	-	960px)	/	2);
+            		}
+            }
+        
